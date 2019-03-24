@@ -1,0 +1,60 @@
+.movie {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    border: 1px solid #E2E2E2;
+    border-radius: 5px;
+    box-shadow: 2px 3px 4px #BBBBBB;
+    overflow: hidden;
+}
+
+.movie__favorite {
+    position: absolute;
+}
+
+.movie__favorite__button { 
+    background: #447CAD;
+    color: #FFFFFF;
+    border-radius: 15px;
+    border-color: #447CAD;
+    margin: 5px;
+    font-size: 0.85em;
+}
+
+.movie__favorite__delete {
+    background: #ff0000;
+    border-color: #ff0000;
+}
+
+.movie__favorite__input {
+    margin: 5px;
+    width: 90%;
+}
+
+.movie__pic {
+    height: 100%;
+}
+
+.movie__fringe{
+    position: absolute;
+    background: #447CAD;
+    top: 11em;
+    height: 5em;
+    text-align: center;
+    width: 100%;
+    color: #FFFFFF;
+    opacity: .90;
+}
+
+.movie__fringe__title {
+    display: block;
+    text-align: center;
+    height: 3.5em;
+    overflow-y: hidden;
+    margin-top: 0.2em;
+}
+
+.movie__fringe__info, .movie__fringe__date {
+    font-size: 0.8em;
+}
+

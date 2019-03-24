@@ -1,0 +1,21 @@
+.favorites {
+    list-style: none;
+    padding: 0;
+    margin: 2em;
+}
+
+.favorites__collection {
+    margin-bottom: 2.5em;
+}
+
+.favorites__collection__title {
+    font-size: 1.2em;
+    color: rgb(249, 199, 0);
+}
+
+.favorites__collection__name {
+    text-transform: capitalize;
+    color: #447CAD;
+}
+
+

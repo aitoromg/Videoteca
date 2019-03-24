@@ -1,0 +1,13 @@
+.discover {
+    padding: 2em;
+}
+
+.discover__search {
+    width: 95%;
+    height: 1.5em;
+    font-size: 1em;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    border: 1px solid #E2E2E2;
+    outline-color: #447CAD;
+} 

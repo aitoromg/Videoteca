@@ -1,0 +1,26 @@
+.menu {
+    display: block;
+    background: #447CAD;
+    padding: 1em;
+    box-shadow: 2px 3px 4px #BBBBBB;
+}
+
+.menu__options {
+    margin: 0;
+    padding: 0;
+}
+
+.menu__option {
+    display: inline-block;
+    margin-right: 1.5em;
+}
+
+.menu__link {
+    color: #FFFFFF;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+.menu__link--active {
+    color: rgb(249, 199, 0);
+} 
